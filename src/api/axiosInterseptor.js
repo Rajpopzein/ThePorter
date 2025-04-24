@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "https://api.pexels.com/v1", // Base URL for the API
+  baseURL: process.env.REACT_APP_API_URL, // Base URL for the API
   headers: {
     "Content-Type": "application/json",
     Authorization: process.env.REACT_APP_API_KEY},

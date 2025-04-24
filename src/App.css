@@ -69,6 +69,24 @@
   z-index: 1;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+}
+.DownloadBtn{
+  /* background-color: #007bff; */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 10%;
+  cursor: pointer;
+  /* height: 30px;
+  width: 30px; */
+  font-size: 1.8rem !important;
+  margin-left: auto;
+  transition: background-color 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
 }
 
 .photo-card:hover .card-info {
