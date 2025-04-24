@@ -11,17 +11,19 @@
   top: 0;
   z-index: 9999;
 }
+
 .nav-mid {
   margin-left: 3.5rem;
   position: relative;
 }
 .nav-mid input{
     height: 1.5rem;
-    width: 28rem !important;
+    /* width: 28rem !important; */
     padding: 0.5rem 0.3rem 0.5rem 2.5rem;
     border-radius: 1rem;
     border: none;
     position: relative;
+    grid-column: 2/3;
 }
 .nav-main input:focus{
     outline: none;

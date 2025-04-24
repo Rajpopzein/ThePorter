@@ -2,7 +2,7 @@ import React, { memo } from "react";
 import "./Navbar.css";
 import { IoSearch } from "react-icons/io5";
 
-const Navbar = () => {
+const Navbar = ({handleSearch, value}) => {
   return (
     <div className="nav-main">
       <div className="nav-left">
@@ -10,7 +10,7 @@ const Navbar = () => {
       </div>
       <div className="nav-mid">
         <IoSearch className="nav-icon" />
-        <input type="text" />
+        <input type="text" value={value} onChange={handleSearch} placeholder="Search" />
       </div>
     </div>
   );
