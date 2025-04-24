@@ -1,0 +1,34 @@
+.nav-main {
+  padding: 0.8rem 1rem;
+  background-color: #d4d7d9be;
+  height: 2.5rem !important;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  margin: 0.1rem 0.1rem;
+  border-radius: 0rem 0rem 1rem 1rem;
+  position: sticky !important;
+  top: 0;
+  z-index: 9999;
+}
+.nav-mid {
+  margin-left: 3.5rem;
+  position: relative;
+}
+.nav-mid input{
+    height: 1.5rem;
+    width: 28rem !important;
+    padding: 0.5rem 0.3rem 0.5rem 2.5rem;
+    border-radius: 1rem;
+    border: none;
+    position: relative;
+}
+.nav-main input:focus{
+    outline: none;
+}
+.nav-icon{
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    margin-left: 1rem;
+}
